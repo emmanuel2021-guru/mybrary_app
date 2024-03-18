@@ -1,3 +1,7 @@
+/**
+ * This file is the entry point for the application. It sets up the server and connects to the database.
+ * It also sets up the routes and listens for requests.
+ */
 if (process.env.NODE_ENV !== 'production') {
   require('dotenv').config();
 }
